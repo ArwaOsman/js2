@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+#my-form {
+    background: lightgray;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.btn {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: darkblue;
+}
+
+.items {
+    list-style: none;
+    padding: 0;
+}
+
+.items li {
+    background: lightblue;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bg-dark {
+    background-color: black !important;
+    color: white !important;
+}
